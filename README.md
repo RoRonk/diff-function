@@ -21,4 +21,5 @@ gcc -no-pie -o diff diff.s
 
 # Run with command-line options
 ./diff -i -B
+```
 
