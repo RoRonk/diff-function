@@ -7,3 +7,14 @@ A simplified implementation of the Unix `diff` program in x86 assembly.
 - Shows changes between files (`c` output for changed lines)
 - Supports `-i` (ignore case) and `-B` (ignore blank lines) options
 - Input can be hardcoded or provided via command-line arguments
+
+## Building & Running
+
+To compile and run your assembly program:
+
+```bash
+# Compile into executable
+gcc -no-pie -o nameofyourprogram nameofyoursource.s
+
+# Run the program
+./nameofyourprogram
