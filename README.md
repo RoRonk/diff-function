@@ -16,7 +16,6 @@ To compile and run your assembly program:
 # Compile into executable
 gcc -no-pie -o diff diff.s
 
-```bash
 # Basic run (hardcoded text)
 ./diff
 
