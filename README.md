@@ -1,6 +1,6 @@
 # Diff
 
-A simplified implementation of the Unix `diff` program in x86 assembly.
+A simplified implementation of the Unix `diff` program in x86 assembly. Right now the input is hardcoded.
 
 ## Features
 - Line-by-line comparison of two files
