@@ -3,8 +3,8 @@
 A simplified implementation of the Unix `diff` program in x86 assembly.
 
 ## Features
-- Line-by-line comparison of two files
-- Shows changes between files (`c` output for changed lines)
+- Line-by-line comparison of two strings
+- Shows changes between strings (`c` output for changed lines)
 - Supports `-i` (ignore case) and `-B` (ignore blank lines) options
 - Input can be hardcoded or provided via command-line arguments
 
@@ -14,7 +14,12 @@ To compile and run your assembly program:
 
 ```bash
 # Compile into executable
-gcc -no-pie -o nameofyourprogram nameofyoursource.s
+gcc -no-pie -o diff diff.s
 
-# Run the program
-./nameofyourprogram
+```bash
+# Basic run (hardcoded text)
+./diff
+
+# Run with command-line options
+./diff -i -B
+
